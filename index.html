@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/31bf2879e0.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+          <div id="container">
+  <h1 style="color:rgb(10, 5, 0)"><i class="fa-solid fa-list-check"></i> TO-DO LIST</h1>
+
+        
+     <div id="text" > 
+        <input type="text" placeholder="   Add your text"
+        id="msg"
+        style="width: 345px;
+        height: 50px;
+        border: none;
+        background-color:rgba(241, 233, 226, 0);
+        font-size: 1rem;
+        outline: none;
+        margin-left: 30px;
+        border-radius: 35px"><button  id="add" onclick="add()">+ add</button>
+
+    </div>
+    <br><br>
+    <div id="error"></div>
+<div id="list"></div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
